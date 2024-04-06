@@ -1,0 +1,104 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.background{
+  background-color: rgb(222, 222, 222);
+height: 100vh;
+padding-top: 50px;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+.calculator{
+  width: 300px;
+  height: 50px auto;
+ 
+  box-shadow: 0px 0px 22px 0px;
+  padding: 20px;
+  background-color: rgb(4, 92, 77);
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 20px;
+
+}
+
+h1{
+  color: #020202;
+  text-align: center;
+  font-family: cursive;
+}
+
+.disply{
+font-size: 24px;
+margin-bottom: 10px;
+width: 280px;
+height: 40px;
+padding: 10px;
+text-align: end;
+background-color: rgba(255, 255, 255, 0.6);
+border: none;
+border-radius: 20px;
+outline: none;
+}
+
+.disply input{
+  border: none;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  outline: unset;
+  background-color:  rgba(255, 255, 255, 0);
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 6px;
+}
+
+button{
+  border: unset;
+font-size: 18px;
+padding: 20px;
+border: px solid #ddd;
+border-radius: 22px;
+cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(253, 94, 36);
+}
+
+.symple{
+  background-color: darkorange;
+  color: #fff;
+  border: none;
+}
+
+.clearbutton{
+  background-color: blue;
+  color: #fff;
+}
+
+.symple:hover{
+  background-color:white ;
+  color: black;
+}
+
+.equal{
+  grid-column: span 2;
+  background-color: orangered;
+  color: #ccc;
+}
+
+.equal:hover{
+  background-color: #fff;
+  color: black;
+
+}
